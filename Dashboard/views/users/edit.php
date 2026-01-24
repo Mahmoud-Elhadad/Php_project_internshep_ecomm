@@ -51,8 +51,8 @@
                        <div class="form-group">
                         <label for="exampleSelectRole">Role</label>
                         <select name="role" class="form-control" name="role" id="exampleSelectRole">
-                          <option value="user" <?= @$user['role'] == 'user' ? "selected" : "";  ?>>User</option>
-                          <option value="admin" <?= @$user['role'] == 'admin' ? "selected" : "";  ?>>Admin</option>
+                          <option value="user" <?= @$user['role'] == 'user' ? "selected" : "";  ?>>user</option>
+                          <option value="admin" <?= @$user['role'] == 'admin' ? "selected" : "";  ?>>admin</option>
                         </select>
                       </div>
                         <?php if (isset($_SESSION['errors']['role'])) { ?> 
