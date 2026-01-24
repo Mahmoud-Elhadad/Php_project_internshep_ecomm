@@ -1,0 +1,13 @@
+# عام
+.env
+node_modules
+vendor
+.DS_Store
+
+# Dashboard
+dashboard/node_modules
+dashboard/.env
+
+# Ecoom
+ecoom/node_modules
+ecoom/.env
